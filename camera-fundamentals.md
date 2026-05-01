@@ -108,7 +108,7 @@ World Space → [Extrinsics] → Camera Space → [Intrinsics] → Screen Space
 
 ---
 
-## Why This Matters for AR/VR (and Rivet)
+## Why This Matters for AR/VR 
 
 In AR, virtual objects must align precisely with the real world. If the camera matrix `K` is even slightly off, **every single rendered point** inherits that error. There's no isolated failure — a bad calibration contaminates the entire scene.
 
