@@ -124,3 +124,5 @@ Intrinsics  = fx, fy, cx, cy              (how does the lens work?)
 Projection  = screen_x = (X/Z)*fx + cx   (how do we draw it?)
 Camera matrix K = 3×3 matrix of intrinsics
 ```
+
+Next >> [Camera Extrinsics](camera-extrinsics.md)
